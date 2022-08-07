@@ -4,8 +4,9 @@
 
 .orange-bg{
     background-color: #fceae8;
-    border-radius: 10px;
+    border-radius: 20px;
 }
+
 
 .carousel-item{
     padding: 20px 40px;
@@ -23,4 +24,53 @@
     padding: 9px 25px;
     margin-top: 10px;
     cursor: pointer;
+}
+
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-style: bold;
+}
+
+.cat1{
+    background-image: linear-gradient(to bottom, #ce8329 0%, #e2b833 100% );
+}
+
+.cat2{
+    background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100% );
+}
+
+.cat3{
+    background-image: linear-gradient(to bottom, #4076e2 0%, #2d0cc3 100% );
+}
+
+.categories h1{
+    color: white;
+}
+
+.categories img{
+    width: 100px;
+}
+
+.card{
+    border: none;
+    border-radius: 30px;
+}
+
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+
+#subscribe{
+    /* width: 300px; */
+    height: 300px;
+}
+
+#subscribe h6{
+    color: grey;
+}
+
+footer{
+    text-align: center;
 }
